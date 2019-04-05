@@ -1,61 +1,122 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+
 <head>
-    <title>Portfolio</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <title>About | Jason Jung</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="logo-nl" href="index.html">Jason Jung</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right" id=nav>
+                <li><a href="index.html">About</a></li>
+                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div><!-- /.container-fluid -->
+    </nav>
+
     <div class="container">
-        <header id= "navheader">
-            <!-- <div class= "col-md-2 px-sm-0">
-                </div> -->
-                <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">Jason Jung</a>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                        <a class="nav-link" href="./index.html">About |</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio |</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                      </li>
-                    </ul>
+        <div class="row">
+
+            <div class="col-md-1">
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Portfolio</h3>
                     </div>
-                </nav>
+
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <a href="#" class="thumbnail work"><img src="./mutd.png" class="img-responsive"
+                                        alt="Favorite Soceer Team"></a>
+                                <div class="caption">
+                                    <h3>Project 1</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6">
+                                <a href="#" class="thumbnail work"><img src="./chipotle.png" class="img-responsive"
+                                        alt="Favorite Food"></a>
+                                <div class="caption">
+                                    <h3>Project 2</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <a href="#" class="thumbnail work"><img src="./tennis.jpg" class="img-responsive"
+                                        alt="Favorite Sports"></a>
+                                <div class="caption">
+                                    <h3>Project 3</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header>
-        <div class="maincontent">
-            <h1 class="name">Portfolio </h1>
-            <hr/>
-            <section>
-            <div class="container1">
-                <div class="image-textbar">Favorite sports Team</div>
-                <img src="./mutd.png" class="img-responsive" alt="Favorite Soceer Team" width="200" height="200">
+        </div>
+
+        <div class="col-md-1">
+        </div>
+
+        <div class="col-md-3">
+            <div class="panel panel-primary" id="sidebar">
+
+                <div class="panel-heading">
+                    <h3 class="panel-title">Connect</h3>
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="https://github.com/jungeh0907" target="_blank" class="thumbnail">
+                                <img src="assets/images/github.png" alt="GitHub" class="img-responsive social"></a>
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <a href="hwww.linkedin.com/in/jasonjung0907" target="_blank" class="thumbnail">
+                                <img src="assets/images/linkedin.png" alt="LinkedIn" class="img-responsive social"></a>
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <a href="https://www.instagram.com/jungeh0907" target="_blank" class="thumbnail">
+                                <img src="assets/images/instagram.png" alt="instagram" class="img-responsive social"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container1">
-                <div class="image-textbar">Favorite Food</div>
-                <img src="./chipotle.png" class="img-responsive" alt="Favorite Food" width="200" height="200">
-            </div>
-            <div class="container1">
-              <div class="image-textbar">Favorite Sport</div>
-              <img src="./tennis.jpg" class="img-responsive" alt="Favorite Sports" width="200" height="200">
-            </div>
-            <div class="container1">
-              <div class="image-textbar">Psychic Game</div>
-              <img src="./psychic.jpg" class="img-responsive" alt="Psychic Game" width="200" height="200">
-            </div>
-            </section>
+        </div>
+
+        <div class="col-md-1">
+        </div>
+
     </div>
-    <footer>
-        Copyright@
+    </div>
+
+    <footer class="footer">
+        <div class="container" id="footer-text">
+            <p class="text-muted">Copyright &reg; 2019 Jason Jung</p>
+        </div>
     </footer>
+
 </body>
+
 </html>
